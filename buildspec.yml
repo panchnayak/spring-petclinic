@@ -15,6 +15,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - ls ./target
 artifacts:
   files:
     - target/spring-petclinic-3.0.0.BUILD-SNAPSHOT.jar
+
