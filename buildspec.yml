@@ -10,12 +10,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn test
       - mvn package
   post_build:
     commands:
       - echo Build completed on `date`
-      - ls ./target
 artifacts:
   files:
     - target/spring-petclinic-3.0.0-SNAPSHOT.jar
