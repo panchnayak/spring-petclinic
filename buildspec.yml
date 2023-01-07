@@ -18,5 +18,5 @@ phases:
       - ls ./target
 artifacts:
   files:
-    - target/spring-petclinic-3.0.0.BUILD-SNAPSHOT.jar
+    - target/spring-petclinic-3.0.0-SNAPSHOT.jar
 
